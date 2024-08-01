@@ -1,3 +1,0 @@
-# LuckyStraws
-LuckyStraws new website!!
-
