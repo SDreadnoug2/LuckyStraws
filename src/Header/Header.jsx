@@ -5,6 +5,7 @@ function Header() {
   
   return (
     <div className='Header'>
+      <h1 className='Header__title'>Lucky Straws</h1>
     </div>
   )
 }

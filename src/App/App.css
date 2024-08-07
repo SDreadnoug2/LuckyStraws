@@ -1,12 +1,31 @@
 .App{
-    background: rgb(199,199,255);
-    background: linear-gradient(0deg, rgba(199,199,255,1) 0%, rgba(174,204,255,1) 42%, rgba(158,239,255,1) 100%);
-    width: 100%;
-    height: 100%;
-
+    width: 100vw;
+    height: 100vh;
+    min-height: 1000px;
+    background: linear-gradient(180deg, #B6658f, #524698)
 }
 
-.App__grid{
-    background-image: repeat;
+.colors{
+    color:#D8ABC3;
+    color: #B6658F;
+    color: #21123C;
+    color: #FCFEDE;
+    color: #7CC903;
+    color: #C4BFE5;
+    color: #B0DDE9;
+    color: #6FC1D7;
+    color: #968DD0;
+    color: #524698;
+    color: #ffff;
 }
+
+.App__background{
+    position: absolute;
+    background-image: url('../assets/Grid.png');
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 
