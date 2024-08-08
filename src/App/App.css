@@ -1,9 +1,35 @@
 .App{
     width: 100vw;
     height: 100vh;
-    min-height: 1000px;
-    background: linear-gradient(180deg, #B6658f, #524698)
-}
+    min-height: 1000px;/*
+    background: linear-gradient(-45deg, #D8ABC3, #C4BFE5, #968DD0, #524698);
+    animation: animate 15s ease infinite;
+    */
+    background-image: url('../assets/sky.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .App__marquee {
+    position: absolute;
+    top: 40px;
+    background-color: white;
+    color: #21123C;
+    font-family: 'Impact';
+
+
+  }
+
+  .App__container{
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
 
 .colors{
     color:#D8ABC3;
@@ -19,13 +45,13 @@
     color: #ffff;
 }
 
-.App__background{
-    position: absolute;
-    background-image: url('../assets/Grid.png');
-    background-repeat: repeat;
-    width: 100vw;
-    height: 100vh;
+@keyframes animation {
+    0% {
+        background-position: 0 50%;
+    }
+    50%{ background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
-
-
-

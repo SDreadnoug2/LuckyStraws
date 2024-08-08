@@ -25,3 +25,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Cenatyc';
+  src: url('Cenatyc-Italic.ttf'), format('ttf');
+  font-weight: normal;
+  font-style: italic;
+  
+
+}
