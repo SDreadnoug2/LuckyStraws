@@ -43,11 +43,12 @@
     animation-fill-mode: forwards;
     /*transition: color 1s linear, background-color 1s linear*/
 }
-/*
+
 .Header__text:hover {
     animation: bar-change 0.1s linear forwards;
+    transform: translate();
 }
-*/
+
 .Header__text.active{
     animation: button-click 0.5s linear forwards;
     animation-fill-mode: forwards;
